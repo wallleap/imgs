@@ -6,7 +6,7 @@
 
 ![new issue](https://raw.githubusercontent.com/wallleap/imgs/main/plain/new-issue.png)
 
-按图随便输入标题内容，创建 Label 名字为 `Friend`（这个必须一致），颜色随便，之后提交
+按图随便输入标题内容（例如 `友链`），创建 Label 名字为 `Friend`（这个必须一致），颜色随便，之后提交
 
 ![friend issue](https://raw.githubusercontent.com/wallleap/imgs/main/plain/friend-issue.png)
 
@@ -38,7 +38,7 @@
 
 接着新建一个 issue，点击右上角 `New issue`
 
-- 标题随意
+- 标题随意，例如 `关于`
 - 内容按照 markdown 语法写就行
 - Label 必须设置为 `About`
 
