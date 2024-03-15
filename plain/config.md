@@ -2,6 +2,8 @@
 
 ## V_GITHUB_TOKEN
 
+> 用于获取 issue，包括文章列表、文章详情、文章详情页评论展示、关于页、友链信息等
+
 直接前往 <https://github.com/settings/tokens> 生成一个新的 Token
 
 将 Token 从中间用空格逗号分开，填写到后面
@@ -20,6 +22,8 @@ V_GITHUB_TOKEN="github_pat_11AKLZALQ0THGC7QD3oXiK_1yC1MANz, FCMnRjvoM5x3gVG7525r
 
 ## LeanCloud 相关
 
+> 用于存储文章阅读量和访客信息
+
 前往 <https://console.leancloud.app/> 注册国际版帐号，新建一个应用
 
 点击设置-应用凭证，将 AppID、AppKey 的值复制后分别填入 V_LEANCLOUD_ID、V_LEANCLOUD_KEY
@@ -31,6 +35,8 @@ V_GITHUB_TOKEN="github_pat_11AKLZALQ0THGC7QD3oXiK_1yC1MANz, FCMnRjvoM5x3gVG7525r
 点击数据存储-结构化数据，点击创建 Class，新建两个 Class，名称分别为 `Counter` 和 `Visitor`，选择无限制，点击创建
 
 ## Utterance 评论
+
+> 友链页的评论
 
 在 GitHub 新建一个仓库，例如 `comments`，前往 <https://utteranc.es/>，在 Repo 处输入 `你的用户名/comments`，然后下划到下面，点击 Copy 复制代码
 
