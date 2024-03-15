@@ -32,7 +32,7 @@
 }
 ```
 
-可以参考我的：<https://github.com/wallleap/myblogs/issues/1>
+可以参考我的：<https://github.com/wallleap/myblogs/issues/1>，展示的是没有缩进的，但是实际是有的，且必须严格按照上面的格式缩进
 
 ## 关于页面
 
