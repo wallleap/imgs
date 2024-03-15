@@ -1,7 +1,5 @@
 # 新建需要的 issues
 
-<https://github.com/wallleap/plain>
-
 ## 友链页面
 
 新建一个 issue，如图，点击 `Issues`，之后点击 `New issue`
