@@ -44,7 +44,7 @@ V_GITHUB_TOKEN="github_pat_11AKLZALQ0THGC7QD3oXiK_1yC1MANz, FCMnRjvoM5x3gVG7525r
 
 ---
 
-一下是一个最基础的 `.env.local` 配置
+以下是一个最基础的 `.env.local` 配置
 
 ```
 # [必须配置] TOKEN，不配置获取不到文章，创建链接 <https://github.com/settings/personal-access-tokens>
