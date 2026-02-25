@@ -50,11 +50,6 @@ V_DESCRIPTION=""        # 博客描述，例如 V_DESCRIPTION="主要分享前�
 V_KEYWORDS=""           # 博客关键词，例如 V_KEYWORDS="前端, web, 博客"
 V_LOGO="./logo.svg"     # 博客 Logo，直接替换 public 中 logo.svg 文件即可
 
-# [可选配置] LeanCloud 用于文章阅读量统计，链接 <https://console.leancloud.app/> 创建应用并把自己的域名添加到 安全中心-Web 安全域名
-V_LEANCLOUD_ID=""       # APP_ID，例如 V_LEANCLOUD_ID="p5t88r7y7SNhoIW7Y0tnXOI9-MdYXbMMI"
-V_LEANCLOUD_KEY=""      # APP_KEY，例如 V_LEANCLOUD_KEY="i65OGuk90hCZ2GK8BCtJsKMf"
-V_LEANCLOUD_SERVER=""   # REST API 服务器地址，需要绑定自己的域名，例如 V_LEANCLOUD_SERVER="https://leancloud.uicop.com"
-
 # [可选配置] 建站时间
 V_CREATED_TIME=""       # 格式 YYYY-MM-DD，例如 2024-12-31
 
@@ -74,9 +69,9 @@ V_DESC="Luwang's Blog"     # 你的博客描述，例如 V_DESC="Luwang's Blog"
 V_UTTERANCES_CODE=``  # 例如 V_UTTERANCES_CODE=`<script src="https://utteranc.es/client.js" repo="你的用户名/comments" issue-term="title" label="Comment" theme="github-light" crossorigin="anonymous" async></script>`
 
 # [可选] 一页显示的博客数量，尽量填大一点，避免博客文章显示不全
-V_BLOG_COUNT="80"
+V_BLOG_COUNT="120"
 # [可选] 一页显示的友链数量，尽量填大一点
-V_FRIEND_COUNT="50"
+V_FRIEND_COUNT="80"
 
 # [可选] ICP 备案
 V_ICP=""
