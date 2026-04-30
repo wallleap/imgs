@@ -40,11 +40,16 @@ pnpm run build && cd dist && echo '/*   /index.html   200' > _redirects
 ```
 # [必须配置] TOKEN，不配置获取不到文章，创建链接 <https://github.com/settings/personal-access-tokens>
 V_GITHUB_TOKEN=""       # GitHub Token 中间任意地方逗号空格断开，否则直接上传到 GitHub 会失效，例如 V_GITHUB_TOKEN="github_pat_11AKLZALQ0ZMxAPQczeVsa_fsrO5ic22IhiUiE, l1F9VheIQQAT3eIJV91frYyTgCnWJNJEJ6A6nkvdKraQ"
+V_GITHUB_GIST_TOKEN=""  # 格式同上，需要在账户设置申请 classic token，勾选 gist 权限
+
 # [必须配置] GitHub Issues 用于展示文章
 V_USERNAME=""           # GitHub 用户名，例如 wallleap
 V_REPOSITORY=""         # Issues 所在仓库名，例如 myblogs
 # [可选] 友链仓库，如果是在博客仓库里设置的评论，这里就不用管
 # V_FRIENDS_REPO="friends"
+
+# [可选配置] GitHub Gist 用于记录访问量等
+V_GIST_ID=""            # Gist ID，例如 V_GIST_ID="12345567890abcdef1234567890abcdef"
 
 # [必须配置] 博客信息
 V_TITLE=""              # 博客标题，例如 V_TITLE="wallleap"
@@ -85,8 +90,8 @@ V_BEI_LINK=""
 
 Vercel 的粘贴到这
 
-![](https://private-user-images.githubusercontent.com/43487278/400295388-f244ef9d-8db5-4b67-9267-6601ec2677d6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4NjUxOTcsIm5iZiI6MTczOTg2NDg5NywicGF0aCI6Ii80MzQ4NzI3OC80MDAyOTUzODgtZjI0NGVmOWQtOGRiNS00YjY3LTkyNjctNjYwMWVjMjY3N2Q2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE4VDA3NDgxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ3NDYyOWYxOWZkYmVjNjYyN2JlYmZlOGFhNjBkZTk1ZDJjMjg2YWNhZmYzZjgxNzBjOWRhZDBkZDhiZjEzZTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XaTDHtdjl0GpYK6Ja_ZgukEtDXoObJ0--VjnvVlmzUE)
+![image-20260430100602935](./image-20260430100602935.png)
 
 Netlify 的
 
-![](https://private-user-images.githubusercontent.com/43487278/413744157-e75a0f7d-622d-477c-b74e-5af9ecd3931d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4NjQ5OTEsIm5iZiI6MTczOTg2NDY5MSwicGF0aCI6Ii80MzQ4NzI3OC80MTM3NDQxNTctZTc1YTBmN2QtNjIyZC00NzdjLWI3NGUtNWFmOWVjZDM5MzFkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE4VDA3NDQ1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRmZTVjMjRmNmY2N2NkZDU2ZDNjZDE2NGQ1NjBmZjE3NmFmN2IxZmYzZjFiMjg3OGUxMjU5YzA1MWFiOTIwMTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.eW_VtmspZ7mNHHIRIMBhNCzdNHCp97HS692F35d8-_Q)
+![image-20260430100735007](./image-20260430100735007.png)

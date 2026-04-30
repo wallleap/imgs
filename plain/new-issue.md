@@ -16,7 +16,7 @@
 
 ### 新建友链
 
-之后在这个 issue 下新建的每条 Comment 都是友链，格式如下：
+之后在这个 issue 下新建的每条 **Comment** 都是友链，格式如下：
 
 ```json
 {
@@ -33,6 +33,8 @@
 ```
 
 可以参考我的：<https://github.com/wallleap/blogtest/issues/3>，点赞了的两个是正确的
+
+如果也需要失联和未添加，直接给那条 `tag` `name` 设置成 `失联`、`未添加` 即可
 
 ## 关于页面
 
@@ -53,19 +55,6 @@
 - Close issue
 
 以后有通知就可以填写内容，直接写一句话就行，例如：`博客建站成功，欢迎大家访问！`
-
-## 文章访问量
-
-由于 LeanCloud 将于 2027 年关闭相关服务，因此修改成使用 issue 记录访问量
-
-新建一个 issue
-
-- 标题随意，例如 `访问量`
-- 内容为空
-- Label 必须设置为 `Counter`
-- Close issue
-
-这个 issue 将会自动修改，因此需要 Token 具有 issue 的 write 权限
 
 ## 博客文章
 
